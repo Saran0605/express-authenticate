@@ -11,7 +11,7 @@ const verifyToken = require("./auth.js"); // path to your auth middleware
 
 const router = express.Router();
 
-router.post("/register",async (req,res)=>{
+router.get("/register",async (req,res)=>{
     
     res.send("hiii");
 });
