@@ -8,6 +8,6 @@ app.use('/todo',todo);
 app.use('/hello',async(req,res)=>{
     res.send("Hi Prettt");
 })
-app.listen(port,()=>{
+app.listen(port, '0.0.0.0',()=>{
     console.log("serve started");
 });
